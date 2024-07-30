@@ -1,5 +1,20 @@
 # Turbidity Measurement Using Fourier Transform and Gaussian Filtering
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Process Overview](#porcess-overview)
+- [Instructions](#instructions)
+   - [Set Up](#set-up)
+   - [Image Pattern Creation](#image-pattern-creation)
+   - [Turbidity Simulation](#turbidity-simulation)
+   - [Fourier Transform and Frequency Analysis](#fourier-transform-and-frequency-analysis)
+   - [Turbidity Experiment](#turbidity-experiment)
+   - [Results Visualization](#results-visualization)
+   - [Conslusions](#conclusions)
+- [Notes](#usage)
+- [Contributing](#contributing)
+
 ## Overview
 
 This repository contains MATLAB scripts and instructions for simulating and measuring turbidity in images using Fourier Transform and Gaussian filtering techniques. The process involves creating image patterns, applying Gaussian filters to simulate turbidity, and analyzing the effect of turbidity on the frequency domain of the images.
@@ -41,7 +56,6 @@ The process is divided into three main parts:
    *Figure 1: Example of a chessboard pattern used for calibration.*
 </div>
 
-  
 
 ### 3. Turbidity Simulation
 
@@ -77,7 +91,7 @@ The process is divided into three main parts:
 *Figure 3: Plot of quality versus turbidity levels in simulation and experiment.*
 </div>
   
-### 6. Conclusions
+### 7. Conclusions
 
 The project successfully demonstrated that turbidity in a water tank can be measured using a low-cost camera setup. The theoretical calculations and simulations were validated by practical results, showing that the method works effectively for basic quality control.
 
