@@ -12,7 +12,7 @@
    - [Turbidity Experiment](#turbidity-experiment)
    - [Results Visualization](#results-visualization)
    - [Conslusions](#conclusions)
-- [Notes](#usage)
+- [Notes](#notes)
 - [Contributing](#contributing)
 
 ## Overview
@@ -99,3 +99,14 @@ The project successfully demonstrated that turbidity in a water tank can be meas
 
 - **Unit Considerations**: The power and standard deviation values do not have explicit units, which may affect result interpretation. The analysis provides relative measurements of turbidity rather than absolute units.
 
+## Contributing
+
+I welcome contributions to improve this project! Please fork the repository and submit pull requests with your enhancements or bug fixes. For major changes, please open an issue to discuss what you would like to change.
+
+## Contact
+
+For any questions or inquiries, please contact:
+
+- **Luis Granados** - [lgsgranados@gmail.com](mailto:lgsgranados@gmail.com)
+- **GitHub Profile** - [luisgrana2](https://github.com/luisgrana2)
+- **LinkedIn Profile** - [Luis Granados](https://www.linkedin.com/in/luis-granados-segura-099290222/)
