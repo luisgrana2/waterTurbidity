@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Process Overview](#porcess-overview)
+- [Process Overview](#process-overview)
 - [Instructions](#instructions)
    - [Set Up](#set-up)
    - [Image Pattern Creation](#image-pattern-creation)
