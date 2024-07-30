@@ -37,7 +37,7 @@ The process is divided into three main parts:
 
 ## Instructions
 
-1. ### Setup
+### 1. ### Setup
 
 **Software**
 - **MATLAB Installation**: Ensure you have MATLAB installed on your system.
@@ -46,7 +46,7 @@ The process is divided into three main parts:
 - **Required Equipment**: The setup requires a water tank, a camera, and an appropriate light source. The light source is crucial as undesired shadows or reflections can impact the analysis.
 - **Optimal Conditions**: Place the setup in a covered area to avoid shadows from surrounding objects. Conduct measurements during a time when sunlight is minimal, ideally between 12:00 and 14:00. Position the camera to cover the entire pattern.
 
-2. ### Image Pattern Creation
+### 2. ### Image Pattern Creation
 
 - **Chessboard and Bars**: Use MATLAB to generate chessboard and bar patterns with varying frequencies. The MATLAB scripts for creating these patterns are included in this repository.
 
@@ -57,11 +57,11 @@ The process is divided into three main parts:
 </div>
 
 
-3. ### Turbidity Simulation
+### 3. ### Turbidity Simulation
 
 - **Gaussian Filtering**: Use MATLAB to apply a Gaussian filter to the images. Adjust the standard deviation to simulate different levels of turbidity.
 
-4. ### Fourier Transform and Frequency Analysis
+### 4. ### Fourier Transform and Frequency Analysis
 
 - **Fourier Transform**: Perform the Fourier Transform on the simulated images to move them into the frequency domain.
 - **Band-pass Filtering**: Manually create and apply a band-pass filter to remove undesired frequencies.
