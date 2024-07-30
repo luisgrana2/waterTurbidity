@@ -20,16 +20,20 @@ The process is divided into two main parts:
 ## Instructions
 
 ### 1. Setup
+
 **Software**
 - **MATLAB Installation**: Ensure you have MATLAB installed on your system.
+
 **Hardware**
-- **Required Equipment**: The setup requires a water tank, a camera, and an appropriate light source. The light source is crucial as undesired shadows or reflections can impact the analysis. 
+- **Required Equipment**: The setup requires a water tank, a camera, and an appropriate light source. The light source is crucial as undesired shadows or reflections can impact the analysis.
 - **Optimal Conditions**: Place the setup in a covered area to avoid shadows from surrounding objects. Conduct measurements during a time when sunlight is minimal, ideally between 12:00 and 14:00. Position the camera to cover the entire pattern.
 
 ### 2. Image Pattern Creation
 
 - **Chessboard and Bars**: Use MATLAB to generate chessboard and bar patterns with varying frequencies. The MATLAB scripts for creating these patterns are included in this repository.
-![Captura de pantalla 2024-07-30 110316](https://github.com/user-attachments/assets/adfd520d-9242-4f5c-8a3e-215ff0f11b4a)
+  
+  ![Chessboard Pattern](https://github.com/user-attachments/assets/adfd520d-9242-4f5c-8a3e-215ff0f11b4a)
+  *Figure 1: Example of a chessboard pattern used for calibration.*
 
 ### 3. Turbidity Simulation
 
@@ -47,13 +51,18 @@ The process is divided into two main parts:
 - **Camera Initialization**: Set up the camera using MATLAB, ensuring it is configured to the maximum resolution (e.g., 1920x1080 for a Logitech Stream Cam).
 - **Image Processing**: Capture images in real-time and process them by converting to grayscale and cropping to focus on the pattern.
 - **Interface Development**: A user interface is developed to allow real-time visualization and analysis of turbidity levels. This interface displays turbidity as a percentage and includes a status indicator for camera operation.
-- **Turbidity Measurement**: Add cocoa powder incrementally (one spoon at a time) while the MATLAB program runs to record the turbidity levels (with same procedure as theoretical part). Continue adding cocoa powder until nine spoons have been added, and document the power values corresponding to each addition to track turbidity changes over time.
-![2cullerades](https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed)
+- **Turbidity Measurement**: Add cocoa powder incrementally (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added, and document the power values corresponding to each addition to track turbidity changes over time.
+
+  ![Cocoa Powder Addition](https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed)
+  *Figure 2: Adding cocoa powder to the water tank to measure turbidity.*
 
 ### 6. Results Visualization
 
 - **Plotting Results**: Plot the results of the power of frequencies versus turbidity levels. Assess water quality by analyzing the standard deviation applied to the image.
 
-![Captura de pantalla 2024-07-30 110030](https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966)
+  ![Results Plot](https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966)
+  *Figure 3: Example plot of power versus turbidity levels.*
 
+## Notes
 
+- **Unit Considerations**: The power and standard deviation values do not have explicit units, which may affect result interpretation.
