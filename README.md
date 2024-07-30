@@ -1,7 +1,5 @@
 # Turbidity Measurement Using Fourier Transform and Gaussian Filtering
 
-# Turbidity Measurement Using Fourier Transform and Gaussian Filtering
-
 ## Overview
 
 This repository contains MATLAB scripts and instructions for simulating and measuring turbidity in images using Fourier Transform and Gaussian filtering techniques. The process involves creating image patterns, applying Gaussian filters to simulate turbidity, and analyzing the effect of turbidity on the frequency domain of the images.
