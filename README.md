@@ -6,7 +6,7 @@ This repository contains MATLAB scripts and instructions for simulating and meas
 
 ## Process Overview
 
-The process is divided into two main parts:
+The process is divided into three main parts:
 
 1. **Simulation of Patterns and Turbidity**:
    - **Pattern Creation**: Create calibration patterns using chessboard images and bar patterns with varying frequencies. MATLAB is used for this purpose, with four frequencies used for both chessboard and bar images.
@@ -16,6 +16,8 @@ The process is divided into two main parts:
    - **Fourier Transform**: Convert the image into the frequency domain using the Fourier Transform. This results in a cross-shaped image for chessboards and a straight line for bar patterns, with peaks representing the frequencies of the image.
    - **Band-pass Filter**: Apply a band-pass filter to isolate the main frequencies by removing high frequencies and the average value at the center. This filter is manually created by combining a high-pass filter and a low-pass filter.
    - **Frequency Analysis**: Calculate the power of the frequencies in the image using the absolute value squared of the Fourier Transform. The results are plotted with turbidity levels marked as power and water quality assessed by the standard deviation applied to the image.
+
+3. **Experimental Project**
 
 ## Instructions
 
@@ -44,7 +46,7 @@ The process is divided into two main parts:
 
 - **Fourier Transform**: Perform the Fourier Transform on the simulated images to move them into the frequency domain.
 - **Band-pass Filtering**: Manually create and apply a band-pass filter to remove undesired frequencies.
-- **Power Calculation**: Compute the power of the frequencies by taking the absolute value squared of the Fourier Transform results.
+- **Power Calculation**: Compute the power of the frequencies by taking the absolute value squared of the Fourier Transform. The less frequency, the higher turbidity, since it blurrs the pattern showed.
 
 ### 5. Turbidity Experiment
 
@@ -60,7 +62,7 @@ The process is divided into two main parts:
 
 ### 6. Results Visualization
 
-- **Plotting Results**: Plot the results of the power of frequencies versus turbidity levels. Assess water quality by analyzing the standard deviation applied to the image.
+- **Plotting Results**: Plot the results of the power of frequencies versus turbidity levels. Assess water quality by analyzing the standard deviation applied to the image. Compare the results simulated by Gaussian filter with the cocoa powder turbidity.
 
   ![Results Plot](https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966)
 
