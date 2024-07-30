@@ -36,7 +36,8 @@ The process is divided into three main parts:
 - **Chessboard and Bars**: Use MATLAB to generate chessboard and bar patterns with varying frequencies. The MATLAB scripts for creating these patterns are included in this repository.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/adfd520d-9242-4f5c-8a3e-215ff0f11b4a" width="25%" height="25%">
+  <img src="https://github.com/user-attachments/assets/adfd520d-9242-4f5c-8a3e-215ff0f11b4a" width="50%" height="50%">
+   
    *Figure 1: Example of a chessboard pattern used for calibration.*
 </div>
 
