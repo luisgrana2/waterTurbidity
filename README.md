@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Process Overview](#process-overview)
 - [Instructions](#instructions)
-   - [Set Up](#1.-setup)
+   - [Set Up](#setup)
    - [Image Pattern Creation](#image-pattern-creation)
    - [Turbidity Simulation](#turbidity-simulation)
    - [Fourier Transform and Frequency Analysis](#fourier-transform-and-frequency-analysis)
