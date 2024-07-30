@@ -1,5 +1,9 @@
 # Turbidity Measurement Using Fourier Transform and Gaussian Filtering
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f01fd60d-fc06-4822-b02b-fbad71241f69" width="50%" height="50%">
+</div>
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -69,16 +73,22 @@ The process is divided into three main parts:
 
 ### Turbidity Experiment
 
-- **Water Tank Preparation**: Use a completely transparent glass tank to avoid quality degradation. The pattern should be printed on an A3 sheet to maximize camera resolution and to allow for rotations within the tank.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b1168d7a-078a-4d43-94cd-440483a6b68a" width="25%" height="25%">
+   
+   *Figure 2: Experimental System*
+</div
+
+- **Water Tank Preparation**: Use a completely transparent glass tank to avoid quality degradation. The pattern should be printed on an A3 sheet to maximize camera resolution and to allow for rotations within the tank. The turbidity is measured with 16-frequncy bars under the water tank, the pattern which provides better results in the simulation.
 - **Camera Initialization**: Set up the camera using MATLAB, ensuring it is configured to the maximum resolution (e.g., 1920x1080 for a Logitech Stream Cam).
 - **Image Processing**: Capture images in real-time and process them by converting to grayscale and cropping to focus on the pattern.
 - **Interface Development**: Develop a user interface to allow real-time visualization and analysis of turbidity levels. This interface displays turbidity as a percentage and includes a status indicator for camera operation.
-- **Turbidity Measurement**: Incrementally add cocoa powder (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added. Document the power values corresponding to each addition to track turbidity changes over time. The turbidity is measured with 16-frequncy bars under the water tank, which provides better results in the simulation.
+- **Turbidity Measurement**: Incrementally add cocoa powder (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added. Document the power values corresponding to each addition to track turbidity changes over time. 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed" width="25%" height="25%">
    
-   *Figure 2: Adding cocoa powder to the water tank to measure turbidity.*
+   *Figure 3: Adding cocoa powder to the water tank to measure turbidity.*
 </div>
 
 ### Results Visualization
@@ -88,7 +98,7 @@ The process is divided into three main parts:
 <div align="center">
 <img src="https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966" height="40%" width="40%"/>
 
-*Figure 3: Plot of quality versus turbidity levels in simulation and experiment.*
+*Figure 4: Plot of quality versus turbidity levels in simulation and experiment.*
 </div>
   
 ### Conclusions
