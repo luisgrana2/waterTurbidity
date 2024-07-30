@@ -61,16 +61,18 @@ The process is divided into three main parts:
 - **Interface Development**: Develop a user interface to allow real-time visualization and analysis of turbidity levels. This interface displays turbidity as a percentage and includes a status indicator for camera operation.
 - **Turbidity Measurement**: Incrementally add cocoa powder (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added. Document the power values corresponding to each addition to track turbidity changes over time.
 
-  ![Cocoa Powder Addition](https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed)
-
-  *Figure 2: Adding cocoa powder to the water tank to measure turbidity.*
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed" width="50%" height="50%">
+   
+   *Figure 2: Adding cocoa powder to the water tank to measure turbidity.*
+</div>
 
 ### 6. Results Visualization
 
 - **Plotting Results**: Plot the results of the power of frequencies versus turbidity levels. Compare the results simulated by the Gaussian filter with the actual turbidity measured using cocoa powder.
 
-<div>
-<img src="https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966" alt="Results Plot" width="600"/>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966" height="50%" width="50%"/>
 
 *Figure 3: Example plot of power versus turbidity levels.*
 </div>
