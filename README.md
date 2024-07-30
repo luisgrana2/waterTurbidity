@@ -73,7 +73,7 @@ The process is divided into three main parts:
 - **Camera Initialization**: Set up the camera using MATLAB, ensuring it is configured to the maximum resolution (e.g., 1920x1080 for a Logitech Stream Cam).
 - **Image Processing**: Capture images in real-time and process them by converting to grayscale and cropping to focus on the pattern.
 - **Interface Development**: Develop a user interface to allow real-time visualization and analysis of turbidity levels. This interface displays turbidity as a percentage and includes a status indicator for camera operation.
-- **Turbidity Measurement**: Incrementally add cocoa powder (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added. Document the power values corresponding to each addition to track turbidity changes over time.
+- **Turbidity Measurement**: Incrementally add cocoa powder (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added. Document the power values corresponding to each addition to track turbidity changes over time. The turbidity is measured with 16-frequncy bars under the water tank, which provides better results in the simulation.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed" width="25%" height="25%">
