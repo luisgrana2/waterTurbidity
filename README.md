@@ -33,6 +33,7 @@ The process is divided into two main parts:
 - **Chessboard and Bars**: Use MATLAB to generate chessboard and bar patterns with varying frequencies. The MATLAB scripts for creating these patterns are included in this repository.
   
   ![Chessboard Pattern](https://github.com/user-attachments/assets/adfd520d-9242-4f5c-8a3e-215ff0f11b4a)
+
   *Figure 1: Example of a chessboard pattern used for calibration.*
 
 ### 3. Turbidity Simulation
@@ -54,6 +55,7 @@ The process is divided into two main parts:
 - **Turbidity Measurement**: Add cocoa powder incrementally (one spoon at a time) while the MATLAB program runs to record the turbidity levels. Continue adding cocoa powder until nine spoons have been added, and document the power values corresponding to each addition to track turbidity changes over time.
 
   ![Cocoa Powder Addition](https://github.com/user-attachments/assets/8a5bc5c8-8078-479f-83cf-f528f7980eed)
+
   *Figure 2: Adding cocoa powder to the water tank to measure turbidity.*
 
 ### 6. Results Visualization
@@ -61,6 +63,7 @@ The process is divided into two main parts:
 - **Plotting Results**: Plot the results of the power of frequencies versus turbidity levels. Assess water quality by analyzing the standard deviation applied to the image.
 
   ![Results Plot](https://github.com/user-attachments/assets/3e69a43b-3424-4079-a999-b640496ba966)
+
   *Figure 3: Example plot of power versus turbidity levels.*
 
 ## Notes
